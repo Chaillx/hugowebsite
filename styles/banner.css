@@ -2,11 +2,24 @@
 	height: 75vh;
 	background-image: url("../images/bannergrand.jpg");
 	background-size: cover;
+	height: 75vh;
 	background-position: center;
 	display: flex;
+	color: white;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	}
+
+.banner h1 {
 	color: white;
-	text-shadow: 1px 2px 3px black;
+	text-shadow: 4px 2px 3px white;
+}
+.banner h2 {
+	color: white;
+		text-shadow: 1px 1px 1px white;
+
+}
+.banner a {
+	color: white;
 }

@@ -1,7 +1,14 @@
 .btn-blue {
 
 	color: black;
-	background-color: green;
+	background-color: yellow;
 	font-weight: bold;
 	padding: 8px;
+}
+
+.btn-blue:hover{
+	background-color: white;
+	color: green;
+	transition: 1s;
+	transform: scale(1.4);
 }
